@@ -37,3 +37,12 @@ body {
 }
 
 
+body {
+    background-color: #c8d2eb; /* Blu scuro */
+    background-image: url('https://twemoji.maxcdn.com/v/latest/svg/1f4bb.svg'), /* Laptop */
+                      url('https://twemoji.maxcdn.com/v/latest/svg/1f916.svg'), /* Robot */
+                      url('https://twemoji.maxcdn.com/v/latest/svg/1f9ee.svg'); /* Chip */
+    background-size: 100px, 120px, 80px; /* Dimensioni diverse per ogni emoji */
+    background-position: top left, center, bottom right; /* Posizioni delle emoji */
+    background-repeat: no-repeat, no-repeat, no-repeat; /* Nessuna ripetizione */
+}
